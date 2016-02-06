@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/mainbgcolor" >
+
+    <FrameLayout android:id="@+id/frame_container" 
+        android:layout_width="fill_parent" 
+        android:layout_height="fill_parent" />
+
+    <ListView
+        android:id="@+id/list_slidermenu"
+        android:layout_width="240.0dip"
+        android:layout_height="fill_parent"
+        android:layout_gravity="left"
+        android:background="@color/drawer_normal_color_1"
+        android:choiceMode="singleChoice"
+        android:dividerHeight="1.0dip"
+        android:listSelector="@drawable/list_selector" />
+
+</android.support.v4.widget.DrawerLayout>

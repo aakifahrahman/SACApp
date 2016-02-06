@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <color android:id="@+id/mainbgcolor" name="mainbgcolor">#EEEEEE</color>
+    <!-- Common Button Colors -->
+    <color android:id="@+id/mainbuttonnormal_color" name="mainbuttonnormal_color">#333333</color>
+    <color android:id="@+id/mainbuttonpressed_color" name="mainbuttonpressed_color">#20c4a2</color>
+	<color android:id="@+id/mainbutton_text_color" name="mainbutton_text_color">#FFFFFF</color>
+    <!-- Common colors -->
+    <color android:id="@+id/color_black" name="color_black">#000</color>
+    <color android:id="@+id/color_white" name="color_white">#FFFFFF</color>
+    
+    <!--  newsfeed tile shading outer to inner -->  
+    <color android:id="@+id/tilebg_1" name="tilebg_1">#4D4D4D</color>
+    <color android:id="@+id/tilebg_2" name="tilebg_2">#4D4D4D</color>
+    <color android:id="@+id/tilebg_3" name="tilebg_3">#4f5862</color>
+    <color android:id="@+id/tilebg_4" name="tilebg_4">#424852</color>
+   <color android:id="@+id/tilebg_main" name="tilebg_main">#808080</color>
+   
+   <!-- nav drawer colors -->
+    <color android:id="@+id/drawer_normal_color_1" name="drawer_normal_color_1">#333333</color>
+    <color android:id="@+id/drawer_pressed_color_1" name="drawer_pressed_color_1">#20c4a2</color>
+    
+    <!-- black shades -->
+    <color android:id="@+id/drawer_normal_color_2" name="drawer_normal_color_2">#272625</color>
+    <color android:id="@+id/drawer_pressed_color_2" name="drawer_pressed_color_2">#131312</color>
+    
+    <!-- contacts title colour -->
+    <color android:id="@+id/contact_main_color" name="contact_main_color">#333333</color>
+    <!--  actionbar -->
+    <color android:id="@+id/actionbar_color" name="actionbar_color">#20c4a2</color>
+    
+    <color android:id="@+id/hint_color" name="hint_color">#444444</color>
+    
+    
+    
+</resources>

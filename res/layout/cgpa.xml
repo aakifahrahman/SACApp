@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mainbgcolor"
+    android:orientation="vertical" >
+     
+   <ScrollView 
+        android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mainbgcolor"
+    android:layout_marginBottom="50dp">
+   <LinearLayout
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical" >
+     
+	   <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal" 
+	        android:weightSum="8">
+
+	       <RelativeLayout
+	           android:layout_width="wrap_content"
+	           android:layout_height="match_parent"
+	           android:layout_weight="2" >
+
+	           <TextView
+	               android:id="@+id/text1"
+	               android:layout_width="match_parent"
+	               android:layout_height="wrap_content"
+	               android:layout_marginLeft="25dp"
+	               android:layout_centerVertical="true"
+	               android:layout_centerHorizontal="true"
+	               android:gravity="center"
+	               android:clickable="true"
+	               android:text="Semester 1"
+	               android:textColor="@color/color_black"
+	               android:textSize="18sp" />
+
+	       </RelativeLayout>
+	        
+	        <Button
+	            android:id="@+id/button1"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="3"
+	            android:layout_margin="7dp"
+	            android:background="@drawable/mainbutton"
+	            android:text="+" 
+	            android:textSize="24sp"
+	            android:textColor="@color/color_white"/>
+
+	        <RelativeLayout
+	            android:layout_width="wrap_content"
+	            android:layout_height="match_parent"
+	            android:layout_weight="3" >
+
+	            <TextView
+	                android:id="@+id/cgpa1"
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	                   android:layout_centerVertical="true"
+	               android:layout_centerHorizontal="true"
+	               android:gravity="center"
+	                android:textColor="@color/color_black"
+	                android:textSize="18sp" />
+
+	        </RelativeLayout>
+	        	        
+	   </LinearLayout>
+	
+	  <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal" 
+	        android:weightSum="8">
+
+	       <RelativeLayout
+	           android:layout_width="wrap_content"
+	           android:layout_height="match_parent"
+	           android:layout_weight="2" >
+
+	           <TextView
+	               android:id="@+id/text2"
+	               android:layout_width="match_parent"
+	               android:layout_height="wrap_content"
+	               android:layout_marginLeft="25dp"
+	               android:layout_centerVertical="true"
+	               android:layout_centerHorizontal="true"
+	               android:gravity="center"
+	               android:clickable="true"
+	               android:text="Semester 2"
+	               android:textColor="@color/color_black"
+	               android:textSize="18sp" />
+
+	       </RelativeLayout>
+	        
+	        <Button
+	            android:id="@+id/button2"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="3"
+	            android:layout_margin="7dp"
+	            android:background="@drawable/mainbutton"
+	            android:text="+" 
+	            android:textSize="24sp"
+	            android:textColor="@color/color_white"/>
+
+	        <RelativeLayout
+	            android:layout_width="wrap_content"
+	            android:layout_height="match_parent"
+	            android:layout_weight="3" >
+
+	            <TextView
+	                android:id="@+id/cgpa2"
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	                   android:layout_centerVertical="true"
+	               android:layout_centerHorizontal="true"
+	               android:gravity="center"
+	                android:textColor="@color/color_black"
+	                android:textSize="18sp" />
+
+	        </RelativeLayout>
+	        	        
+	   </LinearLayout>
+	   
+	   <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal" 
+	        android:weightSum="8">
+
+	       <RelativeLayout
+	           android:layout_width="wrap_content"
+	           android:layout_height="match_parent"
+	           android:layout_weight="2" >
+
+	           <TextView
+	               android:id="@+id/text3"
+	               android:layout_width="match_parent"
+	               android:layout_height="wrap_content"
+	               android:layout_marginLeft="25dp"
+	               android:layout_centerVertical="true"
+	               android:layout_centerHorizontal="true"
+	               android:gravity="center"
+	               android:clickable="true"
+	               android:text="Semester 3"
+	               android:textColor="@color/color_black"
+	               android:textSize="18sp" />
+
+	       </RelativeLayout>
+	        
+	        <Button
+	            android:id="@+id/button3"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="3"
+	            android:layout_margin="7dp"
+	            android:background="@drawable/mainbutton"
+	            android:text="+" 
+	            android:textSize="24sp"
+	            android:textColor="@color/color_white"/>
+
+	        <RelativeLayout
+	            android:layout_width="wrap_content"
+	            android:layout_height="match_parent"
+	            android:layout_weight="3" >
+
+	            <TextView
+	                android:id="@+id/cgpa3"
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	                   android:layout_centerVertical="true"
+	               android:layout_centerHorizontal="true"
+	               android:gravity="center"
+	                android:textColor="@color/color_black"
+	                android:textSize="18sp" />
+
+	        </RelativeLayout>
+	        	        
+	   </LinearLayout>
+	   
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal" 
+	        android:weightSum="8">
+
+	       <RelativeLayout
+	           android:layout_width="wrap_content"
+	           android:layout_height="match_parent"
+	           android:layout_weight="2" >
+
+	           <TextView
+	               android:id="@+id/text4"
+	               android:layout_width="match_parent"
+	               android:layout_height="wrap_content"
+	               android:layout_marginLeft="25dp"
+	               android:layout_centerVertical="true"
+	               android:layout_centerHorizontal="true"
+	               android:gravity="center"
+	               android:clickable="true"
+	               android:text="Semester 4"
+	               android:textColor="@color/color_black"
+	               android:textSize="18sp" />
+
+	       </RelativeLayout>
+	        
+	        <Button
+	            android:id="@+id/button4"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="3"
+	            android:layout_margin="7dp"
+	            android:background="@drawable/mainbutton"
+	            android:text="+" 
+	            android:textSize="24sp"
+	            android:textColor="@color/color_white"/>
+
+	        <RelativeLayout
+	            android:layout_width="wrap_content"
+	            android:layout_height="match_parent"
+	            android:layout_weight="3" >
+
+	            <TextView
+	                android:id="@+id/cgpa4"
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	                   android:layout_centerVertical="true"
+	               android:layout_centerHorizontal="true"
+	               android:gravity="center"
+	                android:textColor="@color/color_black"
+	                android:textSize="18sp" />
+
+	        </RelativeLayout>
+	        	        
+	   </LinearLayout>
+	   
+	     <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal" 
+	        android:weightSum="8">
+
+	       <RelativeLayout
+	           android:layout_width="wrap_content"
+	           android:layout_height="match_parent"
+	           android:layout_weight="2" >
+
+	           <TextView
+	               android:id="@+id/text5"
+	               android:layout_width="match_parent"
+	               android:layout_height="wrap_content"
+	               android:layout_marginLeft="25dp"
+	               android:layout_centerVertical="true"
+	               android:layout_centerHorizontal="true"
+	               android:gravity="center"
+	               android:clickable="true"
+	               android:text="Semester 5"
+	               android:textColor="@color/color_black"
+	               android:textSize="18sp" />
+
+	       </RelativeLayout>
+	        
+	        <Button
+	            android:id="@+id/button5"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="3"
+	            android:layout_margin="7dp"
+	            android:background="@drawable/mainbutton"
+	            android:text="+" 
+	            android:textSize="24sp"
+	            android:textColor="@color/color_white"/>
+
+	        <RelativeLayout
+	            android:layout_width="wrap_content"
+	            android:layout_height="match_parent"
+	            android:layout_weight="3" >
+
+	            <TextView
+	                android:id="@+id/cgpa5"
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	                   android:layout_centerVertical="true"
+	               android:layout_centerHorizontal="true"
+	               android:gravity="center"
+	                android:textColor="@color/color_black"
+	                android:textSize="18sp" />
+
+	        </RelativeLayout>
+	        	        
+	   </LinearLayout>
+	   
+	      <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal" 
+	        android:weightSum="8">
+
+	       <RelativeLayout
+	           android:layout_width="wrap_content"
+	           android:layout_height="match_parent"
+	           android:layout_weight="2" >
+
+	           <TextView
+	               android:id="@+id/text6"
+	               android:layout_width="match_parent"
+	               android:layout_height="wrap_content"
+	               android:layout_marginLeft="25dp"
+	               android:layout_centerVertical="true"
+	               android:layout_centerHorizontal="true"
+	               android:gravity="center"
+	               android:clickable="true"
+	               android:text="Semester 6"
+	               android:textColor="@color/color_black"
+	               android:textSize="18sp" />
+
+	       </RelativeLayout>
+	        
+	        <Button
+	            android:id="@+id/button6"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="3"
+	            android:layout_margin="7dp"
+	            android:background="@drawable/mainbutton"
+	            android:text="+" 
+	            android:textSize="24sp"
+	            android:textColor="@color/color_white"/>
+
+	        <RelativeLayout
+	            android:layout_width="wrap_content"
+	            android:layout_height="match_parent"
+	            android:layout_weight="3" >
+
+	            <TextView
+	                android:id="@+id/cgpa6"
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	                   android:layout_centerVertical="true"
+	               android:layout_centerHorizontal="true"
+	               android:gravity="center"
+	                android:textColor="@color/color_black"
+	                android:textSize="18sp" />
+
+	        </RelativeLayout>
+	        	        
+	   </LinearLayout>
+	   
+	       <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal" 
+	        android:weightSum="8">
+
+	       <RelativeLayout
+	           android:layout_width="wrap_content"
+	           android:layout_height="match_parent"
+	           android:layout_weight="2" >
+
+	           <TextView
+	               android:id="@+id/text7"
+	               android:layout_width="match_parent"
+	               android:layout_height="wrap_content"
+	               android:layout_marginLeft="25dp"
+	               android:layout_centerVertical="true"
+	               android:layout_centerHorizontal="true"
+	               android:gravity="center"
+	               android:clickable="true"
+	               android:text="Semester 7"
+	               android:textColor="@color/color_black"
+	               android:textSize="18sp" />
+
+	       </RelativeLayout>
+	        
+	        <Button
+	            android:id="@+id/button7"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="3"
+	            android:layout_margin="7dp"
+	            android:background="@drawable/mainbutton"
+	            android:text="+" 
+	            android:textSize="24sp"
+	            android:textColor="@color/color_white"/>
+
+	        <RelativeLayout
+	            android:layout_width="wrap_content"
+	            android:layout_height="match_parent"
+	            android:layout_weight="3" >
+
+	            <TextView
+	                android:id="@+id/cgpa7"
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	                   android:layout_centerVertical="true"
+	               android:layout_centerHorizontal="true"
+	               android:gravity="center"
+	                android:textColor="@color/color_black"
+	                android:textSize="18sp" />
+
+	        </RelativeLayout>
+	        	        
+	   </LinearLayout>
+	   
+	        <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal" 
+	        android:weightSum="8">
+
+	       <RelativeLayout
+	           android:layout_width="wrap_content"
+	           android:layout_height="match_parent"
+	           android:layout_weight="2" >
+
+	           <TextView
+	               android:id="@+id/text8"
+	               android:layout_width="match_parent"
+	               android:layout_height="wrap_content"
+	               android:layout_marginLeft="25dp"
+	               android:layout_centerVertical="true"
+	               android:layout_centerHorizontal="true"
+	               android:gravity="center"
+	               android:clickable="true"
+	               android:text="Semester 8"
+	               android:textColor="@color/color_black"
+	               android:textSize="18sp" />
+
+	       </RelativeLayout>
+	        
+	        <Button
+	            android:id="@+id/button8"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="3"
+	            android:layout_margin="7dp"
+	            android:background="@drawable/mainbutton"
+	            android:text="+" 
+	            android:textSize="24sp"
+	            android:textColor="@color/color_white"/>
+
+	        <RelativeLayout
+	            android:layout_width="wrap_content"
+	            android:layout_height="match_parent"
+	            android:layout_weight="3" >
+
+	            <TextView
+	                android:id="@+id/cgpa8"
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	                   android:layout_centerVertical="true"
+	               android:layout_centerHorizontal="true"
+	               android:gravity="center"
+	                android:textColor="@color/color_black"
+	                android:textSize="18sp" />
+
+	        </RelativeLayout>
+	        	        
+	   </LinearLayout>
+	      
+	    
+	      
+	   
+	  
+	
+	    
+</LinearLayout> 
+</ScrollView>
+
+<Button
+    android:id="@+id/cgpacalc"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    android:background="@drawable/common_button"
+    android:text="Calculate CGPA"
+    android:textColor="@color/color_white" />
+	
+</RelativeLayout>

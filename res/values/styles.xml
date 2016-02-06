@@ -1,0 +1,6 @@
+<resources>
+<style parent="@android:style/Widget.Spinner" name="SpinnerAsEditText">
+    <item name="android:background">#00000000</item>
+</style>
+
+</resources>

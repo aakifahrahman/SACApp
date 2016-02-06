@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/mainbgcolor"
+    android:orientation="horizontal" >
+
+ <RelativeLayout
+     android:layout_width="wrap_content"
+     android:layout_height="match_parent"
+     android:layout_weight="4" >
+
+     <TextView
+         android:id="@+id/funtext"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_alignParentLeft="true"
+         android:layout_centerVertical="true"
+         android:gravity="center"
+         android:text="A"
+         android:textSize="50sp" />
+
+    </RelativeLayout>
+
+ <RelativeLayout
+     android:layout_width="wrap_content"
+     android:layout_height="match_parent"
+     android:layout_weight="1" >
+
+     <TextView
+         android:id="@+id/main_post"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_alignParentLeft="false"
+         android:layout_marginLeft="30dp"
+         android:paddingBottom="5dp"
+         android:paddingTop="5dp"
+         android:text="check"
+         android:textColor="@color/color_black"
+         android:textSize="17sp" />
+
+     <TextView
+         android:id="@+id/name_c"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/main_post"
+         android:layout_below="@+id/main_post"
+         android:layout_marginBottom="2dp"
+         android:paddingBottom="5dp"
+         android:paddingTop="5dp"
+         android:text="check"
+         android:textColor="@color/color_black"
+         android:textSize="16sp" />
+
+     <RelativeLayout
+         android:id="@+id/phonelayout"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/name_c"
+         android:layout_below="@+id/name_c" >
+
+         <ImageView
+             android:id="@+id/imageView1"
+             android:layout_width="40dp"
+             android:layout_height="40dp"
+             android:src="@drawable/call" />
+
+         <TextView
+             android:id="@+id/phone_c"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_centerVertical="true"
+             android:layout_marginLeft="20dp"
+             android:layout_toRightOf="@+id/imageView1"
+             android:paddingBottom="5dp"
+             android:paddingTop="5dp"
+             android:text="check"
+             android:textColor="@color/color_black"
+             android:textSize="15sp" />
+
+     </RelativeLayout>
+
+     <RelativeLayout
+         android:id="@+id/maillayout"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/phonelayout"
+         android:layout_below="@+id/phonelayout" >
+
+         <ImageView
+             android:id="@+id/image_1"
+             android:layout_width="40dp"
+             android:layout_height="40dp"
+             android:src="@drawable/mail" />
+
+         <TextView
+             android:id="@+id/email_c"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_centerVertical="true"
+             android:layout_marginLeft="20dp"
+             android:layout_toRightOf="@+id/image_1"
+             android:paddingBottom="5dp"
+             android:paddingTop="5dp"
+             android:text="check"
+             android:textColor="@color/color_black"
+             android:textSize="15sp" />
+
+     </RelativeLayout>
+
+ </RelativeLayout>
+    
+</LinearLayout>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content">
+<LinearLayout
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/mainbgcolor" >
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="1"
+        android:textSize="18sp"
+        android:textColor="@color/color_white"
+        android:background="@drawable/mainbutton"
+        android:layout_margin="5dp"
+        android:layout_gravity="center" />
+    
+        <Button
+        android:id="@+id/button2"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="2"
+        android:textSize="18sp"
+        android:textColor="@color/color_white"
+        android:background="@drawable/mainbutton"
+        android:layout_margin="5dp" 
+        android:layout_gravity="center" />
+        
+            <Button
+        android:id="@+id/button3"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="3"
+        android:textSize="18sp"
+        android:textColor="@color/color_white"
+        android:background="@drawable/mainbutton"
+        android:layout_margin="5dp" 
+        android:layout_gravity="center" />
+            
+                <Button
+        android:id="@+id/button4"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="4"
+        android:textSize="18sp"
+        android:textColor="@color/color_white"
+        android:background="@drawable/mainbutton"
+        android:layout_margin="5dp" 
+        android:layout_gravity="center" />
+                
+                    <Button
+        android:id="@+id/button5"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="5"
+        android:textSize="18sp"
+        android:textColor="@color/color_white"
+        android:background="@drawable/mainbutton"
+        android:layout_margin="5dp"
+        android:layout_gravity="center"  />
+                    
+                   
+                      
+
+    
+
+</LinearLayout>
+</ScrollView>

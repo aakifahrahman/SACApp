@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mainbgcolor"
+    android:orientation="vertical" >
+  
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <Spinner
+    android:id="@+id/spinctype"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    style="@style/SpinnerAsEditText" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/textfield_bg"
+        android:ems="10"
+        android:hint="Name"
+        android:textColorHint="@color/hint_color"
+        android:textColor="@color/color_black" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/rollno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/textfield_bg"
+        android:ems="10"
+        android:hint="Roll No"
+        android:textColorHint="@color/hint_color"
+        android:textColor="@color/color_black" />
+
+    <EditText
+        android:id="@+id/phonenumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/textfield_bg"
+        android:ems="10"
+        android:hint="Phone Number"
+        android:textColorHint="@color/hint_color"
+        android:textColor="@color/color_black" />
+    
+    <EditText
+        android:id="@+id/complaint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/textfield_bg"
+        android:ems="10"
+        android:gravity="top|left"
+        android:minLines="6"
+        android:hint="Complaint"
+        android:textColorHint="@color/hint_color"
+        android:textColor="@color/color_black" />
+
+
+
+    <Button
+        android:id="@+id/sendregister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/mainbutton"
+        android:gravity="center"
+        android:text="Send"
+        android:textColorHint="@color/hint_color"
+        android:textColor="#EEEEEE" />
+
+</LinearLayout>
+
+
+
+</ScrollView>

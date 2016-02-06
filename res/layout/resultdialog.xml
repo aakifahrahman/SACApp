@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="0dp"
+    android:background="@color/actionbar_color"
+    android:minWidth="300dp"
+    android:padding="20dp" >
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:minWidth="50dp"
+        android:padding="10dp"
+        android:text="Results"
+        android:textColor="@color/color_black"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/result"
+        android:layout_centerHorizontal="true"
+        android:text="Calculated gpa"
+        android:textColor="@color/color_black"
+        android:textSize="18sp"
+        android:minHeight="50dp" />
+
+</RelativeLayout>
+

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mainbgcolor"
+    android:orientation="vertical" >
+  
+<LinearLayout    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/subject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:textSize="20sp"
+        android:textColor="@color/color_black"
+        android:text="Subject :"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="15dp" />
+    
+    <EditText
+        android:id="@+id/subjecttext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/textfield_bg"
+        android:textColor="@color/color_black" />
+    
+    <TextView
+        android:id="@+id/message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:textSize="20sp"
+        android:textColor="@color/color_black"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="15dp"
+        android:text="Suggestions for the app :" />
+    
+    <EditText
+        android:id="@+id/messagetext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/textfield_bg"
+        android:gravity="top|left"
+        android:minLines="5"
+        android:textColor="@color/color_black" />
+    
+     <Button
+         android:id="@+id/send"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="20dp"
+         android:layout_marginRight="20dp"
+         android:layout_margin="30dp"
+         android:background="@drawable/mainbutton"
+         android:text="Send Email"
+         android:textColor="@color/mainbutton_text_color" />
+        
+</LinearLayout>
+</ScrollView>

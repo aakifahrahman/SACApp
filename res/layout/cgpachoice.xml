@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/gpaet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" 
+        android:background="@drawable/textfield_bg"
+        android:textColorHint="@color/hint_color"
+         android:inputType="numberDecimal" 
+         android:hint="gpa"
+         android:layout_margin="5dp">
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/creditset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:background="@drawable/textfield_bg"
+        android:textColorHint="@color/hint_color"
+        android:hint="credits" 
+        android:layout_margin="5dp"/>
+
+    <Button
+        android:id="@+id/choosebtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculate" 
+        android:background="@drawable/mainbutton"
+        android:textColor="@color/color_white"
+        android:layout_margin="5dp"/>
+
+    <Button
+        android:id="@+id/gotocalc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Goto Calculator"
+        android:background="@drawable/mainbutton"
+        android:textColor="@color/color_white" 
+        android:layout_margin="5dp"/>
+
+</LinearLayout>
